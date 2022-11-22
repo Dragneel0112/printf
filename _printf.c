@@ -13,7 +13,7 @@ static int (*specs_checks(const char *format))(va_list)
 		{"s", print_string},
 		{"i", print_int},
 		{"d", print_dec},
-		{"b", print_binary},
+		{"b", print_bin},
 		{"u", print_unsigned},
 		{"o", print_oct},
 		{"x", print_x},
