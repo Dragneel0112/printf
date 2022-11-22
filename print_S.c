@@ -7,7 +7,7 @@
  * Return: nummber of chars printed (always 2)
  */
 
-staic int hex_print(char c)
+static int hex_print(char c)
 {
 	int count;
 	char diff = ('A' - ':');
